@@ -4,6 +4,15 @@ Responsive and interactive landing page with dynamic backgrounds, theme colors, 
 ## Overview
 This project is a fully responsive, interactive landing page built with **HTML**, **CSS**, and **JavaScript**. It includes dynamic background changes, a color theme selector, a gallery popup, scroll-to-top functionality, navigation bullets, a timeline section, and more. The project is designed for learning and demonstration purposes, showcasing DOM manipulation, localStorage usage, and modern front-end techniques.
 
+Try It Yourself: [Special-Design]()
+
+---
+
+## Special Thanks
+
+This project was inspired by the incredible content of [**Elzero Web School**](https://www.youtube.com/@ElzeroWebSchool).
+Special thanks to [**Osama Elzero**](https://www.facebook.com/OsElzero/) for making web development easy and fun for thousands of Arabic-speaking learners. This project builds on ideas and techniques learned from his amazing tutorials.
+
 ---
 
 ## Features
@@ -90,3 +99,23 @@ Fully tested on Chrome, Firefox, Edge, and Safari.
 Responsive and mobile-friendly design.
 
 ---
+
+### 👤 Made By
+
+> 💻 Developed with passion by **\[Mahmoud Badr Ali]**
+> 📬 Feel free to [contact me](mailto:mahmoudbadrali15@gmail.com) for collaboration or feedback.
+
+---
+
+## 📚 Learning Resources  
+This project was built using knowledge from the following high-quality resources fron Elzero Web School on YouTube take a look:
+
+[![HTML Tutorial](https://img.icons8.com/color/48/000000/html-5.png)](https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji)
+[![CSS Tutorial](https://img.icons8.com/color/48/000000/css3.png)](https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe)
+[![JS Tutorial](https://img.icons8.com/color/48/000000/javascript.png)](https://www.youtube.com/watch?v=MAauLwSHO6Y&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv)
+
+<sub style="vertical-align: middle;">Free Palestine</sub>
+<p align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg" alt="Palestine Flag" width="75" style="vertical-align: middle; margin-right: 10px;"/>
+</p>
+Gaza is dying of hunger. If you can help, please do not hesitate.
