@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Updock&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Scroll To Top Button -->
+    <div class="scroll-to-top">UP</div>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa-solid fa-gear set"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#FF9800"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#9C27B0"></li>
+            <li data-color="#673AB7"></li>
+            <li data-color="#3F51B5"></li>
+            <li data-color="#2196F3"></li>
+            <li data-color="#03A9F4"></li>
+            <li data-color="#00BCD4"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#4CAF50"></li>
+            <li data-color="#8BC34A"></li>
+            <li data-color="#CDDC39"></li>
+            <li data-color="#FFEB3B"></li>
+            <li data-color="#FFC107"></li>
+            <li data-color="#FF5722"></li>
+            <li data-color="#795548"></li>
+            <li data-color="#9E9E9E"></li>
+            <li data-color="#607D8B"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Scroll To Top</h4>
+          <div class="to-top-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Our Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact Us</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="bg1"></div>
+      <div class="bg2"></div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Vision Art</div>
+          <div class="logo">Creative Vision</div>
+          <div class="logo">Designify</div>
+          <div class="logo">InnoVibe</div>
+          <div class="logo">ArtSphere</div>
+          <div class="logo">Pixel Impact</div>
+          <div class="logo">Nova Design</div>
+          <div class="logo">Bright Studio</div>
+          <div class="logo">ImagineX</div>
+          <div class="logo">Fusion Arts</div>
+          <div class="logo">NextWave Design</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About Us</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+              <li><a href="#" data-section=".contact">Contact Us</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>Transforming <span>Creativity</span> into <span>Impact</span></h1>
+        <p>
+          We combine design, innovation, and strategy to create experiences that
+          captivate, connect, and convert.
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About Us -->
+    <div class="container">
+      <div class="about-us section">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            We are a passionate team dedicated to creating simple, creative, and
+            meaningful digital experiences. Our mission is to deliver
+            high-quality solutions that help people connect, learn, and grow.
+            With a focus on innovation and attention to detail, we aim to bring
+            ideas to life and make a positive impact. Every project we take on
+            is driven by our values: trust, creativity, and excellence.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="images/about-us.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our Skills -->
+    <div class="skills section">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="65%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="40%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="55%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Our Gallery -->
+    <div class="gallery section">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="images/01.jpg" alt="Image One" />
+          <img src="images/02.jpg" alt="Image Two" />
+          <img src="images/03.jpg" alt="Image Three" />
+          <img src="images/04.jpg" alt="Image Four" />
+          <img src="images/05.jpg" alt="Image Five" />
+          <img src="images/06.png" alt="Image Six" />
+          <img src="images/07.jpg" alt="Image Seven" />
+          <img src="images/08.jpg" alt="Image Eight" />
+          <img src="images/09.jpg" alt="Image Nine" />
+          <img src="images/10.jpg" alt="Image Ten" />
+        </div>
+      </div>
+    </div>
+    <!-- End Our Gallery -->
+    <!-- Start Timeline -->
+    <!-- Start Timeline -->
+    <div class="timeline section">
+      <div class="container">
+        <!-- 2019 -->
+        <div class="timeline-content">
+          <div class="year">2019</div>
+          <div class="right">
+            <div class="content">
+              <h3>Expansion to New Markets</h3>
+              <p>
+                We expanded our services to new regions, reaching clients across
+                multiple countries and building a strong foundation for
+                international growth.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>First Major Product Launch</h3>
+              <p>
+                We launched our first major product, delivering innovative
+                solutions that improved performance and attracted attention from
+                industry leaders.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2020 -->
+        <div class="timeline-content">
+          <div class="year">2020</div>
+          <div class="right">
+            <div class="content">
+              <h3>Adapting to Global Challenges</h3>
+              <p>
+                During the global pandemic, we adapted quickly and provided
+                digital solutions that supported our clients in overcoming new
+                challenges.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Building Stronger Solutions</h3>
+              <p>
+                We focused on research and development, improving our technology
+                and creating tools that helped businesses grow sustainably.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Expanding Our Services</h3>
+              <p>
+                We expanded our portfolio by adding new services, enabling us to
+                support clients with more complete and flexible solutions.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <!-- 2021 -->
+        <div class="timeline-content">
+          <div class="year">2021</div>
+          <div class="left">
+            <div class="content">
+              <h3>Embracing Innovation</h3>
+              <p>
+                We integrated new technologies such as AI and blockchain,
+                ensuring our clients benefited from the latest industry
+                advancements.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Building Partnerships</h3>
+              <p>
+                We partnered with global companies and local startups to create
+                collaborative projects that delivered long-term value.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2022 -->
+        <div class="timeline-content">
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>Milestone Achievement</h3>
+              <p>
+                We reached a major milestone by expanding our customer base and
+                strengthening our position in the market through innovative
+                solutions and dedicated support.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Advancing Research</h3>
+              <p>
+                Our research division made significant progress in areas such as
+                data analysis and cloud technology, driving improvements across
+                our services.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Growing Global Team</h3>
+              <p>
+                We welcomed talented professionals from around the world,
+                building a diverse and skilled team committed to delivering the
+                best experiences for our clients.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- End Timeline -->
+    <!-- Start Features -->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="images/Icon_01.png" alt="Programming" />
+          <h4>Development</h4>
+          <p>
+            We provide high-quality development solutions tailored to your
+            business needs.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_02.png" alt="Marketing" />
+          <h4>Marketing</h4>
+          <p>
+            Our professional marketers help you reach a wider audience
+            effectively.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_03.png" alt="Hosting" />
+          <h4>Hosting</h4>
+          <p>
+            Fast, secure, and reliable hosting services to keep your website
+            online 24/7.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_04.png" alt="Mobile Development" />
+          <h4>Mobile Development</h4>
+          <p>
+            We create modern mobile applications that deliver seamless user
+            experiences.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_05.png" alt="Cloud and Servers" />
+          <h4>Cloud and Servers</h4>
+          <p>
+            Scalable cloud solutions and powerful servers to support your
+            growing business.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_06.png" alt="SEO" />
+          <h4>SEO</h4>
+          <p>
+            We optimize your website to rank higher on search engines and
+            attract more traffic.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>
+            On-time delivery and helpful support. Great quality at a fair price.
+          </p>
+          <div class="person-info">
+            <img src="images/image-colton.jpg" alt="" />
+            <h4>Ahmed Mosaad</h4>
+            <p>CEO at TechVision</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Clear communication, and results that matched our expectations
+            exactly.
+          </p>
+          <div class="person-info">
+            <img src="images/image-daniel.jpg" alt="" />
+            <h4>Mohamed Ibrahim</h4>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Reliable team, smooth process, and a product we loved using daily.
+          </p>
+          <div class="person-info">
+            <img src="images/image-patrick.jpg" alt="" />
+            <h4>Sherief Ashraf</h4>
+            <p>Founder at CreativeHub</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="tel" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <div class="footer">
+      Crafted with Passion by:
+      <a href="mailto:mahmoudbadrali15@gmail.com"><span>Mahmoud Badr</span></a>
+    </div>
+    <!-- End Footer -->
+    <script src="master.js"></script>
+  </body>
+</html>
