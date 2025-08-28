@@ -1131,7 +1131,7 @@ h2 {
 /* Start Contact Us */
 .contact {
   min-height: 600px;
-  background-image: url("/images/contact.png");
+  background-image: url("../images/contact.png");
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 80px;
